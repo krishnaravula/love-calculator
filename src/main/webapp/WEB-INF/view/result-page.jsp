@@ -11,6 +11,10 @@
     <title>Result Page</title>
 </head>
 <body>
+<h1 align="center"> Love Calculator</h1>
+<hr>
 
+User Name is : ${userInfo.userName}<br>
+Crush Name is : ${userInfo.crushName}
 </body>
 </html>
