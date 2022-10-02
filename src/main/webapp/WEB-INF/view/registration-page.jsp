@@ -15,11 +15,20 @@
 <body>
 <h1 align="center"> Love Calulator</h1>
 <hr>
+<style type="text/css">
+    .error{
+        color: red;
+        position: fixed;
+        text-align: left;
+        margin-left: 30px;
+    }
+</style>
 <form:form action="registration-sucess" method="get" modelAttribute="userRegistrationInfo">
     <div align="center">
         <p>
             <label for="yn">Name:</label>
             <form:input id="yn" path="name"/>
+            <form:errors path="name" cssClass="error"/>
         </p>
         <p>
             <label for="un">User Name:</label>
@@ -48,7 +57,33 @@
             <form:radiobutton path="gender" value="M"/>Male
             <form:radiobutton path="gender" value="F"/>Female
         </p>
+        <h3>Communication</h3>
 
+        <label>Email</label>
+        <form:input path="communicationDTO.email"/>
+        <br>
+        <label>Phone</label>
+        <form:input path="communicationDTO.phone"/>
+        <br>
+        <label>Age</label>
+        <form:input path="age"/>
+        <form:errors path="age" cssClass="error"/>
+        <br>
+
+        <label>Date of Birth</label>
+        <form:input path="dob"/>
+        <form:errors path="dob" cssClass="error"/>
+        <br>
+
+        <label>Networth</label>
+        <form:input path="netWorth"/>
+        <form:errors path="netWorth" cssClass="error"/>
+        <br>
+
+        <label>Currency</label>
+        <form:input path="currency"/>
+        <form:errors path="currency" cssClass="error"/>
+        <br>
         <input type="submit" value="register">
 
 
