@@ -9,29 +9,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7668d60d-d552-497f-aa34-bf7101629450" name="Changes" comment="love">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/love_calculator_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/love_calculator_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sai/lc/api/CommunicationDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sai/lc/api/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sai/lc/formatter/PhoneNumberFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sai/lc/propertyeditor/CurrencyPropertyEditor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sai/lc/propertyeditor/NamePropertyEditor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sai/lc/validator/Age.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sai/lc/validator/AgeValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+    <list default="true" id="7668d60d-d552-497f-aa34-bf7101629450" name="Changes" comment="till currency editor">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sai/lc/api/EmailDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sai/lc/controllers/EmailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sai/lc/validator/EmailValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sai/lc/validator/UserNameValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/process-email-page.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/send-email-page.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sai/lc/api/UserRegistrationDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sai/lc/api/UserRegistrationDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sai/lc/config/LoveCalculatorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sai/lc/config/LoveCalculatorConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sai/lc/api/CommunicationDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sai/lc/api/CommunicationDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sai/lc/api/UserInfoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sai/lc/api/UserInfoDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sai/lc/controllers/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sai/lc/controllers/RegistrationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/home-page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/home-page.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sai/lc/formatter/PhoneNumberFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sai/lc/formatter/PhoneNumberFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/registration-page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/registration-page.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/registration-success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/registration-success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/result-page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/result-page.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +35,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="AnnotationType" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -130,6 +124,9 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\saikr\eclipse-workspace\love-calculator\src\main\webapp\WEB-INF\view" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sai.lc.validator" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -265,7 +262,7 @@
       <workItem from="1664664372825" duration="1181000" />
       <workItem from="1664670126253" duration="5447000" />
       <workItem from="1664685455815" duration="1141000" />
-      <workItem from="1664748015032" duration="1383000" />
+      <workItem from="1664748015032" duration="7277000" />
     </task>
     <task id="LOCAL-00001" summary="love">
       <created>1664556104865</created>
@@ -274,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664556104865</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="till currency editor">
+      <created>1664749695776</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664749695776</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +297,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="love" />
-    <option name="LAST_COMMIT_MESSAGE" value="love" />
+    <MESSAGE value="till currency editor" />
+    <option name="LAST_COMMIT_MESSAGE" value="till currency editor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -302,6 +307,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/sai/lc/controllers/LCAppController.java</url>
           <line>27</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sai/lc/validator/EmailValidator.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

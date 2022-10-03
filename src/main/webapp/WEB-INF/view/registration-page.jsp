@@ -33,6 +33,7 @@
         <p>
             <label for="un">User Name:</label>
             <form:input id="un" path="userName"/>
+            <form:errors path="userName" cssClass="error"/>
         </p>
         <p>
             <label for="pw">Password:</label>
@@ -61,6 +62,7 @@
 
         <label>Email</label>
         <form:input path="communicationDTO.email"/>
+        <form:errors path="communicationDTO.email" cssClass="error"/>
         <br>
         <label>Phone</label>
         <form:input path="communicationDTO.phone"/>

@@ -2,6 +2,8 @@ package com.sai.lc.controllers;
 
 import com.sai.lc.api.UserRegistrationDTO;
 import com.sai.lc.propertyeditor.NamePropertyEditor;
+import com.sai.lc.validator.EmailValidator;
+import com.sai.lc.validator.UserNameValidator;
 import org.springframework.beans.propertyeditors.CustomDateEditor;
 import org.springframework.beans.propertyeditors.CustomNumberEditor;
 import org.springframework.beans.propertyeditors.StringTrimmerEditor;
@@ -60,6 +62,12 @@ public class RegistrationController {
         NamePropertyEditor nameEditor = new NamePropertyEditor();
 
         binder.registerCustomEditor(Currency.class,"currency",nameEditor);
+
+        UserNameValidator validator = new UserNameValidator();
+        binder.addValidators(validator);
+
+        EmailValidator emailValidator = new EmailValidator();
+        binder.addValidators(emailValidator);
 
 
     }

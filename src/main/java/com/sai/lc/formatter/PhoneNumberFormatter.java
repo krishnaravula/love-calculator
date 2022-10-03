@@ -29,6 +29,6 @@ public class PhoneNumberFormatter implements Formatter<Phone> {
 
     @Override
     public String print(Phone object, Locale locale) {
-        return null;
+        return object+"";
     }
 }

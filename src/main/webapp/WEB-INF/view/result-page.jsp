@@ -13,8 +13,11 @@
 <body>
 <h1 align="center"> Love Calculator</h1>
 <hr>
-
-User Name is : ${userInfo.userName}<br>
-Crush Name is : ${userInfo.crushName}
+<div align="center">
+    User Name is : ${userInfo.userName}<br>
+    Crush Name is : ${userInfo.crushName}
+    <br>
+    <a href="/love_calculator_war_exploded/sendEmail"> Send Result to your Email</a>
+</div>
 </body>
 </html>

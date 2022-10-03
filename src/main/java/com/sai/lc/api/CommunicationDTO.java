@@ -18,7 +18,7 @@ public class CommunicationDTO {
     }
 
     public String getEmail() {
-        return email="krishnaravula@gmail.com";
+        return email;
     }
 
     public void setEmail(String email) {
