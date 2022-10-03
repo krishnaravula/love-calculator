@@ -6,7 +6,7 @@ import javax.validation.constraints.Size;
 public class UserInfoDTO {
 
     @NotBlank(message = "* User Name cant be blank")
-    @Size(min = 3,max = 30,message = "* you should have atleast 3-30 char")
+    @Size(min = 3,max = 30,message = "{userName.size}")
     private String userName;
 
     private String crushName;

@@ -35,6 +35,7 @@
             <label for="cn">Crush Name:</label>
             <form:input  id="cn" path="crushName"/>
         </p>
+        <br>
         <input type="submit" value="Calculate">
     </div>
 </form:form>

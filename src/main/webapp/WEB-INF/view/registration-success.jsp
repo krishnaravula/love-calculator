@@ -19,12 +19,23 @@ Name: ${userRegistrationInfo.name}
 <br>
 
 Hobbies:
-<c:forEach var="temp"  items="${userRegistrationInfo.hobbies}">
+<c:forEach var="temp" items="${userRegistrationInfo.hobbies}">
     ${temp}
 </c:forEach>
 <br>
 Password: ${userRegistrationInfo.password}
+<br>
+Gender: ${userRegistrationInfo.gender}
+<br>
+Email: ${userRegistrationInfo.communicationDTO.email}
+<br>
 
-
+Phone: ${userRegistrationInfo.communicationDTO.phone}
+<br>
+Date of Birth: ${userRegistrationInfo.dob}
+<br>
+NetWorth: ${userRegistrationInfo.netWorth}
+<br>
+Currency: ${userRegistrationInfo.currency}
 </body>
 </html>
